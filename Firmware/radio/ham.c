@@ -29,9 +29,9 @@
 //
 
 ///
-/// @file	parameters.h
+/// @file	ham.c
 ///
-/// Definitions for transmission of HAM radio callsign
+/// Functions for transmission of HAM radio callsign
 ///
 
 #include "ham.h"
