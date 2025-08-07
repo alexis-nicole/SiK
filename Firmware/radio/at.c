@@ -465,12 +465,12 @@ at_ampersand(void)
 			case 'E':
 				// enables transmission of callsign (default every 10 minutes)
 				enable_callsign = true;
-				printf("Transmission of callsign enabled: %s",callsign);
+				printf("Transmission of callsign enabled: %s\n",callsign);
 				break;
 			case 'D':
 				// disables transmission of callsign
 				enable_callsign = false;
-				printf("Transmission of callsign disabled: %s",callsign);
+				printf("Transmission of callsign disabled: %s\n",callsign);
 				break;
 			case 'S':
 				// user is entering their callsign
